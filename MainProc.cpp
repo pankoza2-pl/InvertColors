@@ -7,5 +7,6 @@ int main () {
 	{
 		FreeConsole();
 		BitBlt(hdc, 0, 0, X, Y, hdc, 0, 0, NOTSRCCOPY);
+		Sleep(5000);
 	}
 }
